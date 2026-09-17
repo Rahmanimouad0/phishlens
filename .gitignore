@@ -1,0 +1,26 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+
+# Environment / secrets
+.env
+
+# SQLite evidence store (generated at runtime, not committed)
+*.db
+*.sqlite3
+
+# Archived phishing HTML can be large — track via manifest, not raw files,
+# unless you decide to commit them (they're small and important for reproducibility).
+# Uncomment the next line if you'd rather keep them out of git:
+# evaluation/cases/html/*.html
+
+# OS / editor
+.DS_Store
+.vscode/
+.idea/
+
+# Streamlit
+.streamlit/secrets.toml

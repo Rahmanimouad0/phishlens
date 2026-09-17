@@ -1,0 +1,27 @@
+{
+  "_comment": "Provenance record for evaluation/cases/. Filled in during Week 0, step 2. Every case must be traceable to a source and a pull date — this is what makes the eval set defensible.",
+  "dataset_version": "v0-unset",
+  "created": null,
+  "sources": {
+    "phishing": {
+      "feeds": ["OpenPhish free feed", "PhishTank public database"],
+      "count_target": 20
+    },
+    "legitimate": {
+      "feeds": ["Tranco top sites list"],
+      "count_target": 15,
+      "hard_cases_target": 5,
+      "hard_case_types": [
+        "newly-registered small business site",
+        "URL shortener",
+        "legitimate site with unusual TLD"
+      ]
+    }
+  },
+  "split": {
+    "dev": 30,
+    "final_frozen": 10,
+    "note": "Final set is locked once created. Not viewed during development. Target: expand to ~25 once the pipeline is stable (post Week 2)."
+  },
+  "cases": []
+}
