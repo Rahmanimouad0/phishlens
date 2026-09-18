@@ -1,14 +1,19 @@
 {
-  "_comment": "Provenance record for evaluation/cases/. Filled in during Week 0, step 2. Every case must be traceable to a source and a pull date — this is what makes the eval set defensible.",
-  "dataset_version": "v0-unset",
-  "created": null,
+  "_comment": "Provenance record for evaluation/cases/. Filled in during Week 0, step 2. Every case must be traceable to a source and a pull date \u00e2\u20ac\u201d this is what makes the eval set defensible.",
+  "dataset_version": "v1-auto-sourced",
+  "created": "2026-09-18T18:00:02.668312+00:00",
   "sources": {
     "phishing": {
-      "feeds": ["OpenPhish free feed", "PhishTank public database"],
+      "feeds": [
+        "OpenPhish free feed",
+        "PhishTank public database"
+      ],
       "count_target": 20
     },
     "legitimate": {
-      "feeds": ["Tranco top sites list"],
+      "feeds": [
+        "Tranco top sites list"
+      ],
       "count_target": 15,
       "hard_cases_target": 5,
       "hard_case_types": [
@@ -21,7 +26,48 @@
   "split": {
     "dev": 30,
     "final_frozen": 10,
-    "note": "Final set is locked once created. Not viewed during development. Target: expand to ~25 once the pipeline is stable (post Week 2)."
+    "note": "Final set is locked once created. Not viewed during development. Target: expand to ~25 once the pipeline is stable (post Week 2).",
+    "dev_actual": 30,
+    "final_actual": 10,
+    "seed": 42,
+    "frozen": true
   },
-  "cases": []
+  "cases": [
+    "phish_001",
+    "phish_002",
+    "phish_003",
+    "phish_004",
+    "phish_005",
+    "phish_006",
+    "phish_007",
+    "phish_008",
+    "phish_009",
+    "phish_010",
+    "phish_011",
+    "phish_012",
+    "phish_013",
+    "phish_014",
+    "phish_015",
+    "phish_016",
+    "phish_017",
+    "phish_018",
+    "phish_019",
+    "phish_020",
+    "legit_001",
+    "legit_002",
+    "legit_003",
+    "legit_004",
+    "legit_005",
+    "legit_006",
+    "legit_007",
+    "legit_008",
+    "legit_009",
+    "legit_010",
+    "legit_011",
+    "legit_012",
+    "legit_013",
+    "legit_014",
+    "legit_015"
+  ],
+  "_note": "5 hard legitimate cases NOT included yet \u2014 add them manually (see script output) as legit_016.json .. legit_020.json, then re-run the split step."
 }

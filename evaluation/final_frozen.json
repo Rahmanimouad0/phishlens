@@ -1,0 +1,17 @@
+{
+  "set": "final_frozen",
+  "count": 10,
+  "frozen": true,
+  "case_ids": [
+    "phish_020",
+    "phish_006",
+    "phish_015",
+    "phish_005",
+    "phish_010",
+    "legit_010",
+    "legit_013",
+    "legit_006",
+    "legit_002",
+    "legit_017"
+  ]
+}
