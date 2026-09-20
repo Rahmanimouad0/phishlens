@@ -49,13 +49,18 @@ def main():
     result = investigate(url, tools=tools, tool_schemas=schemas)
 
     print("=== Investigation result ===")
+    print(f"ID:             {result['investigation_id']}")
     print(f"URL:            {result['url']}")
     print(f"Steps used:     {result['steps_used']} / 8")
     print(f"Completed:      {result['completed']}")
     print(f"Tool calls:     {len(result['timeline'])}")
     for t in result["timeline"]:
         print(f"  step {t['step']}: {t['tool']}({t['args']})")
-    print(f"\nVerdict:\n{result['verdict_text']}")
+    print(f"\nRaw verdict text:\n{result['verdict_text']}")
+    print(f"\nStructured verdict: {result['verdict']}")
+    if result["verdict_extraction_error"]:
+        print(f"(structured extraction needed a fallback: {result['verdict_extraction_error']})")
+    print(f"\nLogged to phishlens.db -- query it anytime to see this run's data.")
 
 
 if __name__ == "__main__":

@@ -30,6 +30,10 @@ class LLMProvider:
     def chat(self, messages: list, tools: list) -> LLMResponse:
         raise NotImplementedError
 
+    def structured_complete(self, prompt: str, schema: dict) -> dict:
+        """One-shot call constrained to return JSON matching `schema`."""
+        raise NotImplementedError
+
 
 class OllamaProvider(LLMProvider):
     """Local inference via Ollama's REST API (http://localhost:11434)."""
@@ -64,6 +68,22 @@ class OllamaProvider(LLMProvider):
             return LLMResponse(tool_call=ToolCall(name=fn["name"], args=args))
 
         return LLMResponse(final_report=message.get("content", ""))
+
+    def structured_complete(self, prompt: str, schema: dict) -> dict:
+        """One-shot, no-tools call constrained to return JSON matching `schema`."""
+        resp = requests.post(
+            f"{self.host}/api/chat",
+            json={
+                "model": self.model,
+                "messages": [{"role": "user", "content": prompt}],
+                "format": schema,
+                "stream": False,
+            },
+            timeout=180,
+        )
+        resp.raise_for_status()
+        content = resp.json()["message"]["content"]
+        return json.loads(content)
 
 
 def get_provider(name="ollama", **kwargs) -> LLMProvider:
