@@ -20,6 +20,7 @@ import sys
 
 from agent.investigate import investigate
 from tools.url_analysis import analyze_url, ANALYZE_URL_SCHEMA
+from tools.phishing_model import run_phishing_model, RUN_PHISHING_MODEL_SCHEMA
 
 DEFAULT_TEST_URL = "http://verify-account-login.secure-update.tk/confirm"
 
@@ -27,8 +28,11 @@ DEFAULT_TEST_URL = "http://verify-account-login.secure-update.tk/confirm"
 def main():
     url = sys.argv[1] if len(sys.argv) > 1 else DEFAULT_TEST_URL
 
-    tools = {"analyze_url": analyze_url}
-    schemas = [ANALYZE_URL_SCHEMA]
+    tools = {
+        "analyze_url": analyze_url,
+        "run_phishing_model": run_phishing_model,
+    }
+    schemas = [ANALYZE_URL_SCHEMA, RUN_PHISHING_MODEL_SCHEMA]
 
     print(f"Investigating: {url}")
     print("(this may take 30-90 seconds on CPU inference — that's expected)\n")
