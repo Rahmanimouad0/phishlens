@@ -1,0 +1,9 @@
+{
+  "id": "phish_020",
+  "url": "http://virtualidadescol.bid/b-10/",
+  "expected": "phishing",
+  "difficulty": "easy",
+  "source": "openphish",
+  "pulled_at": "2026-09-18T17:59:47.353211+00:00",
+  "archived_html": "cases/html/phish_020.html"
+}

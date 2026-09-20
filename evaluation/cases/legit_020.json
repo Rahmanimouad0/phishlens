@@ -1,0 +1,9 @@
+{ 
+"id": "legit_020", 
+"url": "https://pushary.com/", 
+"expected": "legitimate", 
+"difficulty": "hard", 
+"hard_case_type": "newly_registered", 
+"source": "manual", 
+"notes": "Recently launched product found via Product Hunt. Domain registration verified via who.is." 
+}

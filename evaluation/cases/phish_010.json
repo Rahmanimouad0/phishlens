@@ -1,0 +1,9 @@
+{
+  "id": "phish_010",
+  "url": "https://www.roblox.com.mu/users/9926519406/profile",
+  "expected": "phishing",
+  "difficulty": "easy",
+  "source": "openphish",
+  "pulled_at": "2026-09-18T17:59:21.320350+00:00",
+  "archived_html": "cases/html/phish_010.html"
+}

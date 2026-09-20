@@ -1,0 +1,9 @@
+{ 
+"id": "legit_019", 
+"url": "https://tinyurl.com/b94zmky9", 
+"expected": "legitimate", 
+"difficulty": "hard",
+"hard_case_type": "url_shortener", 
+"source": "manual", 
+"notes": "Shortened link I created pointing to my FLUTE repo." 
+}

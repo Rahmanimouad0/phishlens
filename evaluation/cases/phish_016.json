@@ -1,0 +1,9 @@
+{
+  "id": "phish_016",
+  "url": "https://rbcode.net/v/8c5cc6a4ea0dc47b28fd680af7e1818a",
+  "expected": "phishing",
+  "difficulty": "easy",
+  "source": "openphish",
+  "pulled_at": "2026-09-18T17:59:39.060673+00:00",
+  "archived_html": "cases/html/phish_016.html"
+}

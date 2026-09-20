@@ -1,0 +1,9 @@
+{
+  "id": "phish_013",
+  "url": "https://www.web2.pancake.run/",
+  "expected": "phishing",
+  "difficulty": "easy",
+  "source": "openphish",
+  "pulled_at": "2026-09-18T17:59:31.844264+00:00",
+  "archived_html": "cases/html/phish_013.html"
+}

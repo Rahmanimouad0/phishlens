@@ -1,0 +1,10 @@
+{
+  "id": "legit_017",
+  "url": "https://web.dev",
+  "expected": "legitimate",
+  "difficulty": "hard",
+  "hard_case_type": "unusual_tld",
+  "source": "manual",
+  "notes": "Google's own web development resource site. Unusual .dev TLD.",
+  "archived_html": "cases/html/legit_017.html"
+}

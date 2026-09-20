@@ -1,0 +1,9 @@
+{
+  "id": "phish_011",
+  "url": "https://kol-9909-00a.pages.dev/",
+  "expected": "phishing",
+  "difficulty": "easy",
+  "source": "openphish",
+  "pulled_at": "2026-09-18T17:59:25.930351+00:00",
+  "archived_html": "cases/html/phish_011.html"
+}

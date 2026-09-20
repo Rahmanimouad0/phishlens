@@ -1,0 +1,9 @@
+{
+  "id": "phish_006",
+  "url": "https://www.metamaskloginu.blogspot.com/",
+  "expected": "phishing",
+  "difficulty": "easy",
+  "source": "openphish",
+  "pulled_at": "2026-09-18T17:59:14.254771+00:00",
+  "archived_html": "cases/html/phish_006.html"
+}

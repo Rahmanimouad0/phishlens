@@ -1,0 +1,9 @@
+{
+  "id": "phish_002",
+  "url": "https://www.roblox.com.am/games/142823291/Murder-Mystery-2?privateServerLinkCode=037625068419256218425781722588",
+  "expected": "phishing",
+  "difficulty": "easy",
+  "source": "openphish",
+  "pulled_at": "2026-09-18T17:59:04.899485+00:00",
+  "archived_html": "cases/html/phish_002.html"
+}

@@ -1,0 +1,9 @@
+{
+  "id": "phish_004",
+  "url": "https://ff.alwayssecuredhub.net/public/assets/jquery/jquery-3.3.1.min.js/",
+  "expected": "phishing",
+  "difficulty": "easy",
+  "source": "openphish",
+  "pulled_at": "2026-09-18T17:59:10.365929+00:00",
+  "archived_html": "cases/html/phish_004.html"
+}

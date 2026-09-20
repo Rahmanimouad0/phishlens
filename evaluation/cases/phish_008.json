@@ -1,0 +1,9 @@
+{
+  "id": "phish_008",
+  "url": "https://him-transsfer.vercel.app/",
+  "expected": "phishing",
+  "difficulty": "easy",
+  "source": "openphish",
+  "pulled_at": "2026-09-18T17:59:16.464695+00:00",
+  "archived_html": "cases/html/phish_008.html"
+}

@@ -1,0 +1,9 @@
+{ 
+"id": "legit_018", 
+"url": "https://tinyurl.com/3ytrkk3c", 
+"expected": "legitimate", 
+"difficulty": "hard",
+"hard_case_type": "url_shortener", 
+"source": "manual", 
+"notes": "Shortened link I created pointing to my own GitHub profile." 
+}

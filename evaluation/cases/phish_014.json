@@ -1,0 +1,9 @@
+{
+  "id": "phish_014",
+  "url": "https://sukd58u-h10u.vercel.app/",
+  "expected": "phishing",
+  "difficulty": "easy",
+  "source": "openphish",
+  "pulled_at": "2026-09-18T17:59:33.432861+00:00",
+  "archived_html": "cases/html/phish_014.html"
+}

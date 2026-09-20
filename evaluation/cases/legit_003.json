@@ -1,0 +1,9 @@
+{
+  "id": "legit_003",
+  "url": "https://theguardian.com",
+  "expected": "legitimate",
+  "difficulty": "easy",
+  "source": "tranco",
+  "pulled_at": "2026-09-18T18:00:02.655165+00:00",
+  "archived_html": null
+}

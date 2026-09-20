@@ -1,0 +1,9 @@
+{
+  "id": "legit_014",
+  "url": "https://bbc.com",
+  "expected": "legitimate",
+  "difficulty": "easy",
+  "source": "tranco",
+  "pulled_at": "2026-09-18T18:00:02.660844+00:00",
+  "archived_html": null
+}

@@ -1,0 +1,9 @@
+{
+  "id": "phish_018",
+  "url": "https://shalinicodes656.github.io/amazon-clone/",
+  "expected": "phishing",
+  "difficulty": "easy",
+  "source": "openphish",
+  "pulled_at": "2026-09-18T17:59:42.959391+00:00",
+  "archived_html": "cases/html/phish_018.html"
+}

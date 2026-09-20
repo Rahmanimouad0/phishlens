@@ -1,0 +1,9 @@
+{
+  "id": "legit_016",
+  "url": "https://deno.land",
+  "expected": "legitimate",
+  "difficulty": "hard",
+  "hard_case_type": "unusual_tld",
+  "source": "manual",
+  "notes": "Official Deno runtime docs site. Unusual .land TLD — structurally resembles what a naive heuristic might flag."
+}

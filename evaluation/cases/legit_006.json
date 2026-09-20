@@ -1,0 +1,9 @@
+{
+  "id": "legit_006",
+  "url": "https://taboola.com",
+  "expected": "legitimate",
+  "difficulty": "easy",
+  "source": "tranco",
+  "pulled_at": "2026-09-18T18:00:02.657635+00:00",
+  "archived_html": "cases/html/legit_006.html"
+}
