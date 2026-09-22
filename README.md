@@ -1,4 +1,5 @@
 # PhishLens
+![Tests](https://github.com/Rahmanimouad0/phishlens/actions/workflows/tests.yml/badge.svg)
 
 **An AI agent that investigates phishing URLs by autonomously selecting specialized analysis tools and combining their evidence with an existing ML classifier.**
 
