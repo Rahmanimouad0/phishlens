@@ -24,3 +24,7 @@ venv/
 
 # Streamlit
 .streamlit/secrets.toml
+
+phishlens_env/
+
+models/
