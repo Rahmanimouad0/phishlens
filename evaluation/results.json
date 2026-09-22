@@ -1,0 +1,372 @@
+{
+  "per_case": {
+    "S1": {
+      "phish_020": {
+        "verdict": "phishing",
+        "confidence": null,
+        "ml_probability": 1.0,
+        "latency_ms": 6238.755941390991,
+        "tool_calls": 0,
+        "failure": false
+      },
+      "phish_006": {
+        "verdict": "phishing",
+        "confidence": null,
+        "ml_probability": 0.8789,
+        "latency_ms": 10.200262069702148,
+        "tool_calls": 0,
+        "failure": false
+      },
+      "phish_015": {
+        "verdict": "phishing",
+        "confidence": null,
+        "ml_probability": 0.9999,
+        "latency_ms": 7.321834564208984,
+        "tool_calls": 0,
+        "failure": false
+      },
+      "phish_005": {
+        "verdict": "phishing",
+        "confidence": null,
+        "ml_probability": 0.999,
+        "latency_ms": 10.001897811889648,
+        "tool_calls": 0,
+        "failure": false
+      },
+      "phish_010": {
+        "verdict": "phishing",
+        "confidence": null,
+        "ml_probability": 1.0,
+        "latency_ms": 7.613182067871094,
+        "tool_calls": 0,
+        "failure": false
+      },
+      "legit_010": {
+        "verdict": "legitimate",
+        "confidence": null,
+        "ml_probability": 0.2218,
+        "latency_ms": 11.098623275756836,
+        "tool_calls": 0,
+        "failure": false
+      },
+      "legit_013": {
+        "verdict": "phishing",
+        "confidence": null,
+        "ml_probability": 0.5472,
+        "latency_ms": 5.613088607788086,
+        "tool_calls": 0,
+        "failure": false
+      },
+      "legit_006": {
+        "verdict": "phishing",
+        "confidence": null,
+        "ml_probability": 0.5406,
+        "latency_ms": 8.524417877197266,
+        "tool_calls": 0,
+        "failure": false
+      },
+      "legit_002": {
+        "verdict": "legitimate",
+        "confidence": null,
+        "ml_probability": 0.1375,
+        "latency_ms": 7.602214813232422,
+        "tool_calls": 0,
+        "failure": false
+      },
+      "legit_017": {
+        "verdict": "legitimate",
+        "confidence": null,
+        "ml_probability": 0.012,
+        "latency_ms": 11.014938354492188,
+        "tool_calls": 0,
+        "failure": false
+      }
+    },
+    "S2": {
+      "phish_020": {
+        "verdict": "phishing",
+        "confidence": "medium",
+        "latency_ms": 83790.36736488342,
+        "tool_calls": 0,
+        "failure": false
+      },
+      "phish_006": {
+        "verdict": "phishing",
+        "confidence": "high",
+        "latency_ms": 55890.32030105591,
+        "tool_calls": 0,
+        "failure": false
+      },
+      "phish_015": {
+        "verdict": "phishing",
+        "confidence": "medium",
+        "latency_ms": 77549.40295219421,
+        "tool_calls": 0,
+        "failure": false
+      },
+      "phish_005": {
+        "verdict": "phishing",
+        "confidence": "medium",
+        "latency_ms": 101423.36702346802,
+        "tool_calls": 0,
+        "failure": false
+      },
+      "phish_010": {
+        "verdict": "phishing",
+        "confidence": "medium",
+        "latency_ms": 79447.35836982727,
+        "tool_calls": 0,
+        "failure": false
+      },
+      "legit_010": {
+        "verdict": "inconclusive",
+        "confidence": "low",
+        "latency_ms": 109160.98380088806,
+        "tool_calls": 0,
+        "failure": false
+      },
+      "legit_013": {
+        "verdict": "legitimate",
+        "confidence": "high",
+        "latency_ms": 121774.01113510132,
+        "tool_calls": 0,
+        "failure": false
+      },
+      "legit_006": {
+        "verdict": "legitimate",
+        "confidence": "high",
+        "latency_ms": 73730.6318283081,
+        "tool_calls": 0,
+        "failure": false
+      },
+      "legit_002": {
+        "verdict": "legitimate",
+        "confidence": "high",
+        "latency_ms": 114655.42984008789,
+        "tool_calls": 0,
+        "failure": false
+      },
+      "legit_017": {
+        "verdict": "inconclusive",
+        "confidence": "low",
+        "latency_ms": 140586.64083480835,
+        "tool_calls": 0,
+        "failure": false
+      }
+    },
+    "S3": {
+      "phish_020": {
+        "verdict": "phishing",
+        "confidence": "medium",
+        "latency_ms": 198985.9335422516,
+        "tool_calls": 1,
+        "failure": false
+      },
+      "phish_006": {
+        "verdict": "phishing",
+        "confidence": "medium",
+        "latency_ms": 208659.89518165588,
+        "tool_calls": 2,
+        "failure": false
+      },
+      "phish_015": {
+        "verdict": "phishing",
+        "confidence": "medium",
+        "latency_ms": 348681.91623687744,
+        "tool_calls": 3,
+        "failure": false
+      },
+      "phish_005": {
+        "verdict": "phishing",
+        "confidence": "medium",
+        "latency_ms": 357856.77576065063,
+        "tool_calls": 2,
+        "failure": false
+      },
+      "phish_010": {
+        "verdict": "phishing",
+        "confidence": "medium",
+        "latency_ms": 281713.2923603058,
+        "tool_calls": 2,
+        "failure": false
+      },
+      "legit_010": {
+        "verdict": "phishing",
+        "confidence": "medium",
+        "latency_ms": 359444.27967071533,
+        "tool_calls": 2,
+        "failure": false
+      },
+      "legit_013": {
+        "verdict": "legitimate",
+        "confidence": "medium",
+        "latency_ms": 288179.66413497925,
+        "tool_calls": 2,
+        "failure": false
+      },
+      "legit_006": {
+        "verdict": "phishing",
+        "confidence": "medium",
+        "latency_ms": 283512.6142501831,
+        "tool_calls": 2,
+        "failure": false
+      },
+      "legit_002": {
+        "verdict": "legitimate",
+        "confidence": "high",
+        "latency_ms": 173569.42415237427,
+        "tool_calls": 1,
+        "failure": false
+      },
+      "legit_017": {
+        "verdict": "legitimate",
+        "confidence": "high",
+        "latency_ms": 339670.85003852844,
+        "tool_calls": 2,
+        "failure": false
+      }
+    },
+    "S4": {
+      "phish_020": {
+        "verdict": "phishing",
+        "confidence": "high",
+        "latency_ms": 277184.34715270996,
+        "tool_calls": 2,
+        "failure": false
+      },
+      "phish_006": {
+        "verdict": "phishing",
+        "confidence": "high",
+        "latency_ms": 279469.69532966614,
+        "tool_calls": 2,
+        "failure": false
+      },
+      "phish_015": {
+        "verdict": "phishing",
+        "confidence": "high",
+        "latency_ms": 251502.53987312317,
+        "tool_calls": 2,
+        "failure": false
+      },
+      "phish_005": {
+        "verdict": "phishing",
+        "confidence": "high",
+        "latency_ms": 330343.3346748352,
+        "tool_calls": 3,
+        "failure": false
+      },
+      "phish_010": {
+        "verdict": "phishing",
+        "confidence": "high",
+        "latency_ms": 254973.60181808472,
+        "tool_calls": 2,
+        "failure": false
+      },
+      "legit_010": {
+        "verdict": "legitimate",
+        "confidence": "medium",
+        "latency_ms": 327490.1053905487,
+        "tool_calls": 3,
+        "failure": false
+      },
+      "legit_013": {
+        "verdict": "legitimate",
+        "confidence": "medium",
+        "latency_ms": 1189798.8622188568,
+        "tool_calls": 2,
+        "failure": false
+      },
+      "legit_006": {
+        "verdict": "phishing",
+        "confidence": "medium",
+        "latency_ms": 337879.1456222534,
+        "tool_calls": 3,
+        "failure": false
+      },
+      "legit_002": {
+        "verdict": "legitimate",
+        "confidence": "high",
+        "latency_ms": 180673.3877658844,
+        "tool_calls": 1,
+        "failure": false
+      },
+      "legit_017": {
+        "verdict": "legitimate",
+        "confidence": "high",
+        "latency_ms": 215173.3021736145,
+        "tool_calls": 2,
+        "failure": false
+      }
+    }
+  },
+  "metrics": {
+    "S1": {
+      "n": 10,
+      "correct": 8,
+      "tp": 5,
+      "fp": 2,
+      "tn": 3,
+      "fn": 0,
+      "precision": 0.714,
+      "recall": 1.0,
+      "f1": 0.833,
+      "avg_latency_ms": 631.8,
+      "avg_tool_calls": 0.0,
+      "failure_rate": 0.0
+    },
+    "S2": {
+      "n": 10,
+      "correct": 8,
+      "tp": 5,
+      "fp": 0,
+      "tn": 3,
+      "fn": 0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "avg_latency_ms": 95800.9,
+      "avg_tool_calls": 0.0,
+      "failure_rate": 0.0
+    },
+    "S3": {
+      "n": 10,
+      "correct": 8,
+      "tp": 5,
+      "fp": 2,
+      "tn": 3,
+      "fn": 0,
+      "precision": 0.714,
+      "recall": 1.0,
+      "f1": 0.833,
+      "avg_latency_ms": 284027.5,
+      "avg_tool_calls": 1.9,
+      "failure_rate": 0.0
+    },
+    "S4": {
+      "n": 10,
+      "correct": 9,
+      "tp": 5,
+      "fp": 1,
+      "tn": 4,
+      "fn": 0,
+      "precision": 0.833,
+      "recall": 1.0,
+      "f1": 0.909,
+      "avg_latency_ms": 364448.8,
+      "avg_tool_calls": 2.2,
+      "failure_rate": 0.0
+    }
+  },
+  "cases": [
+    "phish_020",
+    "phish_006",
+    "phish_015",
+    "phish_005",
+    "phish_010",
+    "legit_010",
+    "legit_013",
+    "legit_006",
+    "legit_002",
+    "legit_017"
+  ]
+}

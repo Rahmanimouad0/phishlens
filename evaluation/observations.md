@@ -1,0 +1,3 @@
+# Observations
+
+- 2026-09-20: Tested the agent on my own tinyurl link (legit_018, points to my GitHub — known safe). The agent said "phishing" with medium confidence, which is WRONG. It noticed the evidence was weak (52.59% from the ML model, close to 50/50) but still gave a final answer instead of using the 3rd tool (analyze_html) to look closer. Only tested once so far — will check in Week 3 if this happens on more examples before trying to fix it.
