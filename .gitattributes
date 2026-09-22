@@ -1,0 +1,5 @@
+# Archived phishing/legitimate page HTML is DATA for the evaluation
+# dataset, not application code -- exclude it from GitHub's language
+# detection so the repo's language stats accurately reflect what this
+# project actually is (Python).
+evaluation/cases/html/* linguist-vendored
