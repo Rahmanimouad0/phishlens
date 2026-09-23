@@ -3,7 +3,10 @@
 
 **An AI agent that investigates phishing URLs by autonomously selecting specialized analysis tools and combining their evidence with an existing ML classifier.**
 
-> Status: 🚧 Week 0 — evaluation dataset setup in progress.
+<img width="2864" height="1770" alt="Screenshot 2026-09-23 113509" src="https://github.com/user-attachments/assets/7787092f-080f-4790-8ca1-829febd15d4b" />
+<img width="2872" height="1796" alt="Screenshot 2026-09-23 114452" src="https://github.com/user-attachments/assets/926dd31d-bc6b-4179-b391-7ea3c0ca60ef" />
+<img width="2872" height="1828" alt="Screenshot 2026-09-23 115314" src="https://github.com/user-attachments/assets/37982eaf-0b27-4de3-b29b-446dea67e864" />
+
 
 ## What this is
 
